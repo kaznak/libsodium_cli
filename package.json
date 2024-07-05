@@ -1,7 +1,8 @@
 {
   "name": "libsodium_cli",
   "version": "0.0.0",
-  "description": "libsodium cli wrapper",
+  "description": "A CLI wrapper of libsodium.js for the github secret encryption.
+",
   "bin": {
     "libsodium": "libsodium.js"
   },
