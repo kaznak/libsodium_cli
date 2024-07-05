@@ -2,6 +2,8 @@
 
 A CLI wrapper of [libsodium.js](https://github.com/jedisct1/libsodium.js) for the github secret encryption.
 
+There is an example usage in scripts.test of package.json.
+
 ## References
 
 - [Libsodium](https://libsodium.gitbook.io/doc/)
