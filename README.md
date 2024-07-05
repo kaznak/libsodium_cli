@@ -1,6 +1,6 @@
 # libsodium_cli
 
-[Libsodium.js](https://github.com/jedisct1/libsodium.js) for the command line.
+A CLI wrapper of [Libsodium.js](https://github.com/jedisct1/libsodium.js) for the github secret encryption.
 
 ## References
 
