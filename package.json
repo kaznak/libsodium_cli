@@ -12,7 +12,8 @@
   "author": "Nakamura Kazutaka <kaznak.at.work@ipebble.org>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "libsodium-wrappers": "^0.7.13"
   },
   "devDependencies": {
     "prettier": "^3.3.2"
