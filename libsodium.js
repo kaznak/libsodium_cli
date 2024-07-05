@@ -42,7 +42,7 @@ program
           entries = Object.entries(parsedData),
           encEntries = entries.map(([key, value]) => [
             key,
-            encrypt_gh_secret(encode_key, value),
+            encrypt_gh_secret(encode_key, JSON.stringify(value)),
           ]),
           encData = Object.fromEntries(encEntries),
           outputJSON = JSON.stringify(encData);
