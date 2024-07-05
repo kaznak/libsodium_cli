@@ -7,7 +7,7 @@
   },
   "scripts": {
     "format": "prettier -u -w .",
-    "test": "echo '{\"a\":\"bcdef\"}' | npx libsodium encrypt_gh_secret_json_map aZWzsarnI9VMF1EGhxEz9kVSvjtbJp3Fubmji/gIBA8= ; echo ${PIPESTATUS[@]}"
+    "test": "echo '{\"a\":\"bcdef\",\"g\":10,\"h\":true,\"i\":{\"j\":\"k\"}}' | npx libsodium encrypt_gh_secret_json_map aZWzsarnI9VMF1EGhxEz9kVSvjtbJp3Fubmji/gIBA8= ; echo ${PIPESTATUS[@]}"
   },
   "author": "Nakamura Kazutaka <kaznak.at.work@ipebble.org>",
   "license": "ISC",
