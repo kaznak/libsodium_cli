@@ -19,7 +19,11 @@ function encrypt_gh_secret(key, value) {
 program
   .name(npmpkg.name)
   .description(npmpkg.description)
-  .version(npmpkg.version)
+  .version(npmpkg.version);
+
+program
+  .command("encrypt_gh_secret_json_map")
+  .description("Encrypt a JSON map(Record<string,string | number>)")
   .argument("<encode_key>", "encryption key")
   .action((encode_key) => {
     //Check if libsodium is ready and then proceed.
